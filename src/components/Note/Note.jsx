@@ -88,7 +88,7 @@ export default function Note({ noteInfo, getNoteHandle, setNotes }) {
         </div>
         {toggle ? (
           <div className="absolute  inset-0">
-            <div className="border-2 bg-white border-violet-200 shadow-2xl p-4 w-1/2 lg:w-1/4 mx-auto mt-12">
+            <div className="border-2 bg-white border-violet-200 shadow-2xl p-4 w-[70%] sm:w-1/2 lg:w-1/4  mx-auto mt-12">
               <div className=" *:size-5  *:rounded-full flex gap-2 items-center">
                 <div className="bg-red-500"></div>
                 <div className="bg-yellow-500"></div>

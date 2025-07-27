@@ -94,7 +94,7 @@ export default function Home() {
       </section>
       {toggle ? (
         <div className="z-10 absolute inset-0 top-5">
-          <div className="border-2 bg-white border-violet-200 shadow-2xl p-4 w-1/2 lg:w-1/4 mx-auto mt-12">
+          <div className="border-2 bg-white border-violet-200 shadow-2xl p-4 w-[70%]  sm:w-1/2 lg:w-1/4 mx-auto mt-12">
           <div className=" *:size-5  *:rounded-full flex gap-2 items-center">
             <div className="bg-red-500"></div>
             <div className="bg-yellow-500"></div>
@@ -118,7 +118,7 @@ export default function Home() {
                 />
               </svg>
             </div>
-            <form className="space-y-2 mt-2" onSubmit={formik.handleSubmit}>
+            <form className="space-y-2  mt-2" onSubmit={formik.handleSubmit}>
               <div className="flex flex-col gap-1">
                 <input
                   className="w-full px-1 py-2 focus:outline-none border border-gray-400 rounded-lg"
