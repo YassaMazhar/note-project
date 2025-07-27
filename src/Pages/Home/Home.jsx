@@ -66,11 +66,11 @@ export default function Home() {
 
   return (
     <>
-      <section className="container mx-auto my-8 p-5">
+      <section className=" px-16 py-8 my-2 p-5 ">
         <div className="flex items-center justify-between ">
           <h2 className=" uppercase text-2xl font-bold">my notes</h2>
           <button
-            className="bg-violet-400 text-xl font-semibold text-white rounded-md py-2 px-4 cursor-pointer"
+            className="bg-violet-400  text-xl font-semibold text-white rounded-md py-2 px-4 cursor-pointer"
             onClick={changeToggle}
           >
            + Add Note
@@ -121,7 +121,7 @@ export default function Home() {
             <form className="space-y-2  mt-2" onSubmit={formik.handleSubmit}>
               <div className="flex flex-col gap-1">
                 <input
-                  className="w-full px-1 py-2 focus:outline-none border border-gray-400 rounded-lg"
+                  className="w-full px-1 py-2 focus:outline-none border border-gray-400 rounded-lg "
                   id="title"
                   type="text"
                   placeholder="Title"

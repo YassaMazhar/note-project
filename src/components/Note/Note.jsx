@@ -66,9 +66,9 @@ export default function Note({ noteInfo, getNoteHandle, setNotes }) {
   return (
     <>
       <div>
-        <div className="p-4 border-2 border-violet-400 space-y-4">
+        <div className="p-4 border-2 border-violet-400 dark:border-black space-y-4">
           <h2 className="text-xl font-bold">{title}</h2>
-          <p className="text-gray-700">{content}</p>
+          <p className="text-gray-700 dark:text-black">{content}</p>
           <div className="flex *:w-1/2 gap-4 *:rounded-md *:py-2 *:cursor-pointer">
             <button
               className="bg-red-400 text-white hover:bg-red-600"
